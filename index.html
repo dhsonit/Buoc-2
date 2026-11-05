@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài viết bước 2 - Tải công cụ trải nghiệm</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: #0f0f0f;
+            color: #f1f1f1;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .container {
+            background-color: #1f1f1f;
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+            color: #ffffff;
+            text-align: center;
+        }
+        p.description {
+            font-size: 0.95rem;
+            color: #aaa;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        .download-box {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .btn-download {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: transform 0.2s, opacity 0.2s;
+            text-align: center;
+        }
+        .btn-download:active {
+            transform: scale(0.98);
+        }
+        .btn-microg {
+            background-color: #2b5c8f;
+            color: #ffffff;
+        }
+        .btn-youtube {
+            background-color: #cc0000;
+            color: #ffffff;
+        }
+        .note-box {
+            background-color: #2a2a2a;
+            border-left: 4px solid #ffcc00;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 0.88rem;
+            color: #ddd;
+        }
+        .note-box strong {
+            color: #ffcc00;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 24px;
+            color: #888;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tải Công Cụ Trải Nghiệm (Bước 2)</h1>
+        <p class="description">Vui lòng tải và cài đặt theo đúng thứ tự 2 file APK bên dưới về điện thoại Android của bạn.</p>
+
+        <div class="download-box">
+            <!-- Nút tải MicroG (Cài trước) -->
+            <a href="https://github.com/vancedto/vanced.to/releases/download/2026-8/vanced.to_vanced_gms_microg_v0.3.13.2.250932.apk" class="btn-download btn-microg" target="_blank">
+                1. Tải MicroG (Cài Đặt Trước)
+            </a>
+
+            <!-- Nút tải YouTube ứng dụng đã vá -->
+            <a href="https://github.com/vancedto/vanced.to/releases/download/2026-44/vanced.to_morphe_com.google.android.youtube_arm64v8a_v21.30.216_cli1.20.0_p2.1.0.4_cb6f45967e.apk" class="btn-download btn-youtube" target="_blank">
+                2. Tải Ứng Dụng YouTube (Đã Vá)
+            </a>
+        </div>
+
+        <div class="note-box">
+            <strong>Hướng dẫn nhanh:</strong>
+            <ol style="margin-left: 18px; margin-top: 8px;">
+                <li>Cài đặt file <strong>MicroG</strong> trước để hỗ trợ đăng nhập tài khoản.</li>
+                <li>Tiếp theo cài đặt file <strong>YouTube</strong>.</li>
+                <li>Mở ứng dụng vừa cài và đăng nhập tài khoản để sử dụng bình thường.</li>
+            </ol>
+        </div>
+
+        <a href="index.html" class="back-link">← Quay lại trang chủ Profile</a>
+    </div>
+
+</body>
+</html>
